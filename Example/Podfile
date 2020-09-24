@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MyTestPod_Tests' do
+  pod 'MyTestPod', :path => '../'
+  
+  
+end
