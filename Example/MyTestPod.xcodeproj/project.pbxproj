@@ -18,9 +18,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6ED8086DFE40BF84F738C4EE /* Pods_MyTestPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTestPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6FE1EBE13CDAB57567D9A1 /* Pods-MyTestPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTestPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyTestPod_Tests/Pods-MyTestPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AE883E30EC75099ECDB29816 /* MyTestPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyTestPod.podspec; path = ../MyTestPod.podspec; sourceTree = "<group>"; };
-		D1C31950CAC98C953AC828B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E950F9D8085183D2A06C08E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AE883E30EC75099ECDB29816 /* MyTestPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyTestPod.podspec; path = ../MyTestPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1C31950CAC98C953AC828B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E950F9D8085183D2A06C08E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				AD6FE1EBE13CDAB57567D9A1 /* Pods-MyTestPod_Tests.debug.xcconfig */,
 				316A4C7553249B0A1044325F /* Pods-MyTestPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
